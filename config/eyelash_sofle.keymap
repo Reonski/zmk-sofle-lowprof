@@ -61,6 +61,11 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        keyboard.ctrl {
+            bindings = <&mo 6>;
+            key-positions = <55 62>;
+        };
     };
 
     macros {
