@@ -194,7 +194,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: qwerty, h: toggle}
   - shortcut.2
-  - {t: shortcut-numpad, h: toggle}
+  - {t: mac-numpad, h: toggle}
   mac-numpad:
   - {t: '`', s: '~'}
   - {t: 'Ctl+[', s: 'Ctl+{'}
