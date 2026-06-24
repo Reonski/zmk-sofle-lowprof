@@ -150,11 +150,11 @@
 
         shortcut.2 {
             bindings = <
-&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans         &trans  &trans  &trans
-&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &bold_italics  &trans  &trans  &kp LC(LS(MINUS))
-&trans  &trans  &kp LC(RA(S))  &trans         &trans         &trans           &trans  &trans  &trans         &trans         &trans  &trans  &trans
-&trans  &trans  &kp LC(LA(X))  &kp LC(LA(C))  &kp LC(LS(V))  &kp LC(LS(B))    &trans  &trans  &kp LC(LA(M))  &trans         &trans  &trans  &trans
-&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans         &trans  &trans
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &none   &trans  &trans  &kp LC(LS(MINUS))
+&trans  &trans  &kp LC(RA(S))  &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &kp LC(LA(X))  &kp LC(LA(C))  &kp LC(LS(V))  &kp LC(LS(B))    &trans  &trans  &kp LC(LA(M))  &trans  &trans  &trans  &trans
+&trans  &trans  &trans         &trans         &trans         &trans           &trans  &trans  &trans         &trans  &trans  &trans
             >;
 
             display-name = "shortcut.2";
