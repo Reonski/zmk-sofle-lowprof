@@ -63,7 +63,7 @@
 
         keyboard.ctrl {
             bindings = <&mo 6>;
-            key-positions = <55 62>;
+            key-positions = <62 56>;
         };
     };
 
