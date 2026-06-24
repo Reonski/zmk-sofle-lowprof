@@ -14,7 +14,6 @@
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 8 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y)
-
 &msc {
     acceleration-exponent = <0>;      // 0
     time-to-max-speed-ms = <0>;       // 300
@@ -121,7 +120,7 @@
 &kp TAB     &kp Q         &kp W         &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O    &kp P     &kp MINUS
 &kp CAPS    &kp A         &kp S         &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
 &kp LSHFT   &kp Z         &kp X         &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT DEL
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &none   &mo 3   &kp SPACE    &mt LC(V) LC(C)  &kp SPACE  &kp ENTER  &tog 0     &mo 5    &tog 1
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &none   &mo 3   &kp SPACE    &mt LC(V) LC(C)  &kp SPACE  &kp ENTER  &tog 0     &mo 5    &tog 3
             >;
 
             sensor-bindings = <&scroll_encoder>;
