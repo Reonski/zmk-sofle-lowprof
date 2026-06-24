@@ -13,12 +13,12 @@
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
+&msc_input_listener { input-processors = <&zip_scroll_scaler 6 1>; }; // ori: 2 1 (works pefectly with smooth scrolling=y)
 
 &msc {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
-    delay-ms = <0>;                   // 0
+    acceleration-exponent = <0>;      // 0
+    time-to-max-speed-ms = <0>;       // 300
+    delay-ms = <0>;                   // ori: 0
 };
 
 &mmv {
