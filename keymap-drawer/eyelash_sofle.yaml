@@ -446,8 +446,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - KP NUMLOCK
   - {t: Ctl+C, h: Ctl+V}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -523,5 +523,5 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [55, 62]
+- p: [62, 56]
   k: keyboard.ctrl
